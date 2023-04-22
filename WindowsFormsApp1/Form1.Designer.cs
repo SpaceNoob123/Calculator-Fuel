@@ -101,6 +101,7 @@ namespace WindowsFormsApp1
             this.calculateButton.Size = new System.Drawing.Size(100, 23);
             this.calculateButton.TabIndex = 6;
             this.calculateButton.Text = "Calculate";
+            this.calculateButton.Click += new System.EventHandler(this.calculateButton_Click);
             this.calculateButton.UseVisualStyleBackColor = true;
             calculateButton.ForeColor = Color.WhiteSmoke;
             calculateButton.FlatStyle = FlatStyle.Popup;
